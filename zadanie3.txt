@@ -1,0 +1,28 @@
+Nazwy zmiennych użyte w tym kodzie są bardzo niejasne, popraw kod tak, aby był zrozumiały podczas czytania go:
+
+#include <iostream>
+#include <vector>
+
+int main() {
+    int n;
+    double l, s = 0.0;
+
+    std::cout << "Ile: ";
+    std::cin >> n;
+
+    std::vector<double> l;
+
+    std::cout << "L:" << std::endl;
+
+    for (int i = 0; i < n; ++i) {
+        std::cin >> lby;
+        lby.push_back(l);
+        s += l;
+    }
+
+    double sr = s / n;
+
+    std::cout << "Śr: " << sr << std::endl;
+
+    return 0;
+}

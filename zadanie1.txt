@@ -1,0 +1,11 @@
+Sformatuj te dwa kody, według zasad przestawionych na prezentacji, tak, aby były jak najbardziej czytelne.
+
+1)
+#include<iostream>using namespace std;double calculateAverage(int arr[],int size){double sum=0;for(int i=0;i<size;i++){sum+=arr[i];}
+return sum/size;}int main    				(){
+int data[]={2,4,6,8,10};int size=sizeof(data)/sizeof(data[0]);cout<<"Średnia: "<<calculateAverage(data,size)<<endl;return 0;}
+
+2)
+#include<iostream>#include<cmath>
+using namespace std;double power(double base, int exponent){return pow(base,exponent);}int main(){double base;int exponent;cout<<"Enter base: ";cin>>base;cout<<"Enter exponent: ";cin>>exponent;cout<<"Result: "<<power(base,exponent)<<endl;return 0;}
+
