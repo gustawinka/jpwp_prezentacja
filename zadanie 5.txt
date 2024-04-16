@@ -3,7 +3,7 @@ Napisz program który narysuje trójkąt równoramienny o wskazanej przez użytk
 wysokości.
 Wprowadź obsługę błędów i sprawdzanie sensowności przekazanej wartości.
 
-Dla wysokości trójkąta = 3 twój program powinien zwrócić:
+Dla wysokości trójkąta = 4 twój program powinien zwrócić:
    o
   ooo
  ooooo
