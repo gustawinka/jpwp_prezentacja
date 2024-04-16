@@ -1,0 +1,14 @@
+zadanie 5
+Napisz program który narysuje trójkąt równoramienny o wskazanej przez użytkownika
+wysokości.
+Wprowadź obsługę błędów i sprawdzanie sensowności przekazanej wartości.
+
+Dla wysokości trójkąta = 3 twój program powinien zwrócić:
+   o
+  ooo
+ ooooo
+ooooooo
+
+(przy pisaniu w javie)
+import java.util.Scanner;
+import java.lang.Exception;
